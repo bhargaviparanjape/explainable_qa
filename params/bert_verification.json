@@ -1,0 +1,7 @@
+{
+    "model_name_or_path": "bert-large-uncased",
+    "config_name" : "bert-large-uncased",
+    "tokenizer_name" : "bert-large-uncased",
+    "do_lower_case": true,
+    "classes": [ "REFUTES", "SUPPORTS" ]
+}

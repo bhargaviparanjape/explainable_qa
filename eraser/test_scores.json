@@ -1,0 +1,82 @@
+{
+    "classification_scores": {
+        "accuracy": 0.815,
+        "comprehensiveness": null,
+        "comprehensiveness_entropy": null,
+        "comprehensiveness_kl": null,
+        "prf": {
+            "NEG": {
+                "f1-score": 0.8279069767441859,
+                "precision": 0.7739130434782608,
+                "recall": 0.89,
+                "support": 100
+            },
+            "POS": {
+                "f1-score": 0.7999999999999999,
+                "precision": 0.8705882352941177,
+                "recall": 0.74,
+                "support": 100
+            },
+            "macro avg": {
+                "f1-score": 0.8139534883720929,
+                "precision": 0.8222506393861893,
+                "recall": 0.815,
+                "support": 200
+            },
+            "micro avg": {
+                "f1-score": 0.815,
+                "precision": 0.815,
+                "recall": 0.815,
+                "support": 200
+            },
+            "weighted avg": {
+                "f1-score": 0.813953488372093,
+                "precision": 0.8222506393861891,
+                "recall": 0.815,
+                "support": 200
+            }
+        },
+        "sufficiency": null,
+        "sufficiency_entropy": null,
+        "sufficiency_kl": null
+    },
+    "iou_scores": [
+        {
+            "macro": {
+                "f1": 0.31652060838261625,
+                "p": 0.2908826173826176,
+                "r": 0.34711482859246023
+            },
+            "micro": {
+                "f1": 0.31269349845201233,
+                "p": 0.29480443666082895,
+                "r": 0.3328938694792353
+            },
+            "threshold": 0.1
+        }
+    ],
+    "rationale_prf": {
+        "instance_macro": {
+            "f1": 0.0,
+            "p": 0.0,
+            "r": 0.0
+        },
+        "instance_micro": {
+            "f1": 0,
+            "p": 0.0,
+            "r": 0.0
+        }
+    },
+    "token_prf": {
+        "instance_macro": {
+            "f1": 0.1764889618672558,
+            "p": 0.11835753185689228,
+            "r": 0.43764675456468993
+        },
+        "instance_micro": {
+            "f1": 0.18105502481253966,
+            "p": 0.11570271025426097,
+            "r": 0.4160554606651261
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "model_name_or_path": "distilbert-base-uncased",
+    "config_name" : "distilbert-base-uncased",
+    "tokenizer_name" : "distilbert-base-uncased",
+    "do_lower_case": true,
+    "classes": [ "REFUTES", "SUPPORTS" ],
+    "chunk_size" : 5,
+    "tau" : 0.7,
+    "K" : 4,
+    "beta" : 1.0,
+    "beta_norm" : 0.0,
+    "num_avg" : 1,
+    "threshold" : 0.40,
+    "distribution": "binary",
+    "norm" : "L1",
+    "soft_eval" : false,
+    "sampled_eval" : false
+}

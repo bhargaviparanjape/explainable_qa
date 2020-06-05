@@ -1,0 +1,12 @@
+{
+    "model_name_or_path": "distilbert-base-uncased",
+    "config_name" : "distilbert-base-uncased",
+    "tokenizer_name" : "distilbert-base-uncased",
+    "do_lower_case": true,
+    "classes": [ "NEG", "POS" ],
+    "chunk_size" : 10,
+    "tau" : 0.7,
+    "K" : 10,
+    "beta" : 100,
+    "num_avg" : 1
+}
