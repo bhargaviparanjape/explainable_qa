@@ -1,5 +1,6 @@
-##### Conciseness in Rationale Extraction with an Information Bottleneck
+# Conciseness in Rationale Extraction with an Information Bottleneck
 
+This repository contains code for the paper [An Information Bottleneck Approach for Controlling Conciseness in Rationale Extraction](https://arxiv.org/abs/2005.00652) by Bhargavi Paranjape, Mandar Joshi, John Thickstun, Hannaneh Hajishirzi, Luke Zettlemoyer.
 To run the code follow these instructions:
 
 ### Installing Dependencies 
@@ -52,3 +53,8 @@ Hyperparameters in `paramss/*.json` files can be toggled:
 - `beta_norm` : Lgrangian multiplier on norm-regularization losses
 - `threshold` : Sparsity parameter $\pi$
 - `distribution` : Choose between [binary, kumaraswamy]
+
+
+### Contact
+
+For questions, contact [Bhargavi Paranjape](https://bhargaviparanjape.github.io/) or raise issues.
