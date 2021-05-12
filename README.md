@@ -22,6 +22,7 @@ To compress BoolQ documents, run for splits train,test and val:
 mkdir data/boolq_inference_truncated
 cd information_bottleneck
 python truncate_dataset.py --data_dir ../data/boolq --split X --model_params ../params/gated_truefalse.json --truncate --max_num_sentences 25
+cp -r ../data/boolq/docs ../data/boolq_truncated
 ```
 
 To compress Evidence Inference documents, run for splits train,test and val:
@@ -29,6 +30,7 @@ To compress Evidence Inference documents, run for splits train,test and val:
 mkdir data/evidence_inference_truncated
 cd information_bottleneck
 python truncate_dataset.py --data_dir ../data/evidence_inference --split test --model_params ../params/gated_evidence.json --truncate --max_num_sentences 20
+cp -r ../data/evidence_inference/docs ../data/evidence_inference_truncated
 ```
 
 ### Running Code
