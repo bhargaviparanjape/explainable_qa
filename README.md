@@ -19,12 +19,14 @@ python convert_to_eraser_format.py \
 ```
 To compress BoolQ documents, run for splits train,test and val:
 ```
+mkdir data/boolq_inference_truncated
 cd information_bottleneck
 python truncate_dataset.py --data_dir ../data/boolq --split X --model_params ../params/gated_truefalse.json --truncate --max_num_sentences 25
 ```
 
 To compress Evidence Inference documents, run for splits train,test and val:
 ```
+mkdir data/evidence_inference_truncated
 cd information_bottleneck
 python truncate_dataset.py --data_dir ../data/evidence_inference --split test --model_params ../params/gated_evidence.json --truncate --max_num_sentences 20
 ```
@@ -48,7 +50,7 @@ In shell scripts the following arguments can be toggled:
 - `--max_num_sentences` : Avg number of sentences in each example (NS)
 - `--max_query_length` : Fixed query length 
 
-Hyperparameters in `paramss/*.json` files can be toggled:
+Hyperparameters in `paramss/*.json` files can be toggled. To recreate results, please see TABLE 5 in the paper:
 - `beta`: Information bottleneck trade-off parameter
 - `beta_norm` : Lgrangian multiplier on norm-regularization losses
 - `threshold` : Sparsity parameter $\pi$
