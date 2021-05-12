@@ -1,7 +1,7 @@
 python -m torch.distributed.launch ib_train_sentence.py \
     --data_dir $REPO_PATH/data/evidence_inference_truncated \
     --output_dir $REPO_PATH/final_evidence/evidence_inference_KL_1.0 \
-    --model_params $REPO_PATH/params/gated_truefalse.json \
+    --model_params $REPO_PATH/params/gated_evidence.json \
     --model_type distilbert_gated_sent \
     --overwrite_output_dir \
     --do_train \
