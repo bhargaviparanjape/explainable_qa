@@ -16,7 +16,7 @@ mkl-fft==1.0.15
 mkl-random==1.1.0
 mkl-service==2.3.0
 murmurhash==1.0.2
-numpy==1.18.1
+numpy==1.22.0
 olefile==0.46
 Pillow==7.0.0
 plac==1.1.3
